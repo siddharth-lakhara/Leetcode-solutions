@@ -6,19 +6,24 @@ public class AddTwoNumber {
         ListNode resultsRef = resultsHead;
         int carry = 0;
 
-        while (l1 != null || l2 != null || carry != 0) {
-            int val1 = l1 != null ? l1.val : 0;
-            int val2 = l2 != null ? l2.val : 0;
+        while (l1 != null || l2 != null) {
+            int newVal = carry;
+            if (l1 != null) {
+                newVal += l1.val;
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                newVal += l2.val;
+                l2 = l2.next;
+            }
 
-            int newVal = val1 + val2 + carry;
             carry = Math.floorDiv(newVal, 10);
-            newVal %= 10;
-
-            resultsRef.next = new ListNode(newVal);
-
-            l1 = l1 != null ? l1.next : l1;
-            l2 = l2 != null ? l2.next : l2;
+            resultsRef.next = new ListNode(newVal % 10);
             resultsRef = resultsRef.next;
+        }
+
+        if (carry > 0) {
+            resultsRef.next = new ListNode(carry);
         }
 
         return resultsHead.next;
