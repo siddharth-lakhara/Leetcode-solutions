@@ -1,9 +1,9 @@
-import _1642.FurthestBuilding;
+import _2.AddTwoNumber;
 
 public class Runner {
 
     public static void main(String[] args) {
-        FurthestBuilding solution = new FurthestBuilding();
+        AddTwoNumber solution = new AddTwoNumber();
         solution.driver();
     }
 }
