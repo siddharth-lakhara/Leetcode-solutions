@@ -1,9 +1,9 @@
-import _3.LongestSubstring;
+import _4.MedianOfMergedArray;
 
 public class Runner {
 
     public static void main(String[] args) {
-        LongestSubstring solution = new LongestSubstring();
+        MedianOfMergedArray solution = new MedianOfMergedArray();
         solution.driver();
     }
 }
