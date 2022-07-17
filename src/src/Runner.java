@@ -1,9 +1,9 @@
-import _215.KthLargestElem;
+import _1636.FrequencySort;
 
 public class Runner {
 
     public static void main(String[] args) {
-        KthLargestElem solution = new KthLargestElem();
+        FrequencySort solution = new FrequencySort();
         solution.driver();
     }
 }
