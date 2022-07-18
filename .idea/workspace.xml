@@ -44,6 +44,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_239" />
       <recent name="_1636" />
     </key>
   </component>
@@ -122,6 +123,11 @@
           <url>file://$PROJECT_DIR$/src/src/_5/LongestPallindromicSubseq.java</url>
           <line>24</line>
           <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_239/SlidingWindowMax.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -1,9 +1,9 @@
-import _1636.FrequencySort;
+import _239.SlidingWindowMax;
 
 public class Runner {
 
     public static void main(String[] args) {
-        FrequencySort solution = new FrequencySort();
+        SlidingWindowMax solution = new SlidingWindowMax();
         solution.driver();
     }
 }
