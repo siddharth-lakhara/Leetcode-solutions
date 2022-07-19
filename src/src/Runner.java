@@ -1,9 +1,9 @@
-import _2016.MaximumDifference;
+import _122.MaximumProfit;
 
 public class Runner {
 
     public static void main(String[] args) {
-        MaximumDifference solution = new MaximumDifference();
+        MaximumProfit solution = new MaximumProfit();
         solution.driver();
     }
 }
