@@ -1,9 +1,9 @@
-import _219.ContainsNearbyDuplicate;
+import _56.MergeIntervals;
 
 public class Runner {
 
     public static void main(String[] args) {
-        ContainsNearbyDuplicate solution = new ContainsNearbyDuplicate();
+        MergeIntervals solution = new MergeIntervals();
         solution.driver();
     }
 }
