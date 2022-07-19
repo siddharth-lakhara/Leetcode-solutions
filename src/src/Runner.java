@@ -1,9 +1,9 @@
-import _122.MaximumProfit;
+import _217.ContainsDuplicate;
 
 public class Runner {
 
     public static void main(String[] args) {
-        MaximumProfit solution = new MaximumProfit();
+        ContainsDuplicate solution = new ContainsDuplicate();
         solution.driver();
     }
 }
