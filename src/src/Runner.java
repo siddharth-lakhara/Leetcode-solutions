@@ -1,9 +1,9 @@
-import _239.SlidingWindowMax;
+import _121.MaximumProfit;
 
 public class Runner {
 
     public static void main(String[] args) {
-        SlidingWindowMax solution = new SlidingWindowMax();
+        MaximumProfit solution = new MaximumProfit();
         solution.driver();
     }
 }
