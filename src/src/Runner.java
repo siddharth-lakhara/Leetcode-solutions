@@ -1,9 +1,9 @@
-import _220.ContainsNearbyAlmostDuplicate;
+import _238.ProductExceptSelf;
 
 public class Runner {
 
     public static void main(String[] args) {
-        ContainsNearbyAlmostDuplicate solution = new ContainsNearbyAlmostDuplicate();
+        ProductExceptSelf solution = new ProductExceptSelf();
         solution.driver();
     }
 }
