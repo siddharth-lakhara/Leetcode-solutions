@@ -1,9 +1,9 @@
-import _238.ProductExceptSelf;
+import _53.MaxSumSubArray;
 
 public class Runner {
 
     public static void main(String[] args) {
-        ProductExceptSelf solution = new ProductExceptSelf();
+        MaxSumSubArray solution = new MaxSumSubArray();
         solution.driver();
     }
 }
