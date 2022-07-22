@@ -1,9 +1,9 @@
-import _11.MaxArea;
+import _86.PartitionList;
 
 public class Runner {
 
     public static void main(String[] args) {
-        MaxArea solution = new MaxArea();
+        PartitionList solution = new PartitionList();
         solution.driver();
     }
 }
