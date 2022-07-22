@@ -1,9 +1,9 @@
-import _206.ReverseLinkedList;
+import _11.MaxArea;
 
 public class Runner {
 
     public static void main(String[] args) {
-        ReverseLinkedList solution = new ReverseLinkedList();
+        MaxArea solution = new MaxArea();
         solution.driver();
     }
 }
