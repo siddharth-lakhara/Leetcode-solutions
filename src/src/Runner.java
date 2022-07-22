@@ -1,9 +1,9 @@
-import _92.ReverseLinkedList2;
+import _206.ReverseLinkedList;
 
 public class Runner {
 
     public static void main(String[] args) {
-        ReverseLinkedList2 solution = new ReverseLinkedList2();
+        ReverseLinkedList solution = new ReverseLinkedList();
         solution.driver();
     }
 }
