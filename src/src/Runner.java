@@ -1,9 +1,9 @@
-import _86.PartitionList;
+import _315.CountSmaller;
 
 public class Runner {
 
     public static void main(String[] args) {
-        PartitionList solution = new PartitionList();
+        CountSmaller solution = new CountSmaller();
         solution.driver();
     }
 }
