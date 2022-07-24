@@ -1,9 +1,9 @@
-import _315.CountSmaller;
+import _74.Search2DMatrix;
 
 public class Runner {
 
     public static void main(String[] args) {
-        CountSmaller solution = new CountSmaller();
+        Search2DMatrix solution = new Search2DMatrix();
         solution.driver();
     }
 }
