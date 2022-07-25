@@ -1,9 +1,9 @@
-import _34.SearchRange;
+import _153.MinInRotatedSortedArr;
 
 public class Runner {
 
     public static void main(String[] args) {
-        SearchRange solution = new SearchRange();
+        MinInRotatedSortedArr solution = new MinInRotatedSortedArr();
         solution.driver();
     }
 }
