@@ -1,9 +1,9 @@
-import _240.Search2DMatrix2;
+import _34.SearchRange;
 
 public class Runner {
 
     public static void main(String[] args) {
-        Search2DMatrix2 solution = new Search2DMatrix2();
+        SearchRange solution = new SearchRange();
         solution.driver();
     }
 }
