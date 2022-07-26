@@ -1,9 +1,9 @@
-import _153.MinInRotatedSortedArr;
+import _236.LowestCommonAncestor;
 
 public class Runner {
 
     public static void main(String[] args) {
-        MinInRotatedSortedArr solution = new MinInRotatedSortedArr();
+        LowestCommonAncestor solution = new LowestCommonAncestor();
         solution.driver();
     }
 }
