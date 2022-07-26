@@ -1,9 +1,9 @@
-import _104.MaximumDepth;
+import _1376.InformEmployee;
 
 public class Runner {
 
     public static void main(String[] args) {
-        MaximumDepth solution = new MaximumDepth();
+        InformEmployee solution = new InformEmployee();
         solution.driver();
     }
 }
