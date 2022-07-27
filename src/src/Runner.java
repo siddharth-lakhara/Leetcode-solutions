@@ -1,9 +1,9 @@
-import _1376.InformEmployee;
+import _114.FlattenBinaryTree;
 
 public class Runner {
 
     public static void main(String[] args) {
-        InformEmployee solution = new InformEmployee();
+        FlattenBinaryTree solution = new FlattenBinaryTree();
         solution.driver();
     }
 }
