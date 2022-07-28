@@ -1,9 +1,9 @@
-import _114.FlattenBinaryTree;
+import _242.ValidAnagram;
 
 public class Runner {
 
     public static void main(String[] args) {
-        FlattenBinaryTree solution = new FlattenBinaryTree();
+        ValidAnagram solution = new ValidAnagram();
         solution.driver();
     }
 }
