@@ -1,9 +1,9 @@
-import _242.ValidAnagram;
+import _141.DetectListCycle;
 
 public class Runner {
 
     public static void main(String[] args) {
-        ValidAnagram solution = new ValidAnagram();
+        DetectListCycle solution = new DetectListCycle();
         solution.driver();
     }
 }
