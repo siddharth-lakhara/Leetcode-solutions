@@ -1,9 +1,9 @@
-import _141.DetectListCycle;
+import _890.FindAndReplace;
 
 public class Runner {
 
     public static void main(String[] args) {
-        DetectListCycle solution = new DetectListCycle();
+        FindAndReplace solution = new FindAndReplace();
         solution.driver();
     }
 }
