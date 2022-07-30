@@ -1,9 +1,9 @@
-import _890.FindAndReplace;
+import _876.ListMiddle;
 
 public class Runner {
 
     public static void main(String[] args) {
-        FindAndReplace solution = new FindAndReplace();
+        ListMiddle solution = new ListMiddle();
         solution.driver();
     }
 }
