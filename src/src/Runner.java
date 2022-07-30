@@ -1,9 +1,9 @@
-import _876.ListMiddle;
+import _169.MajorityElement;
 
 public class Runner {
 
     public static void main(String[] args) {
-        ListMiddle solution = new ListMiddle();
+        MajorityElement solution = new MajorityElement();
         solution.driver();
     }
 }
