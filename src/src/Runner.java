@@ -1,9 +1,9 @@
-import _169.MajorityElement;
+import _916.WordSubset;
 
 public class Runner {
 
     public static void main(String[] args) {
-        MajorityElement solution = new MajorityElement();
+        WordSubset solution = new WordSubset();
         solution.driver();
     }
 }
