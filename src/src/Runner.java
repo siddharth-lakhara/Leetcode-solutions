@@ -1,9 +1,9 @@
-import _916.WordSubset;
+import _307.RangeSumQuery;
 
 public class Runner {
 
     public static void main(String[] args) {
-        WordSubset solution = new WordSubset();
+        RangeSumQuery solution = new RangeSumQuery();
         solution.driver();
     }
 }
