@@ -1,9 +1,9 @@
-import _307.RangeSumQuery;
+import _378.KthSmallestInSpiralMatrix;
 
 public class Runner {
 
     public static void main(String[] args) {
-        RangeSumQuery solution = new RangeSumQuery();
+        KthSmallestInSpiralMatrix solution = new KthSmallestInSpiralMatrix();
         solution.driver();
     }
 }
