@@ -1,9 +1,9 @@
-import _378.KthSmallestInSpiralMatrix;
+import _729.MyCalendarDriver;
 
 public class Runner {
 
     public static void main(String[] args) {
-        KthSmallestInSpiralMatrix solution = new KthSmallestInSpiralMatrix();
+        MyCalendarDriver solution = new MyCalendarDriver();
         solution.driver();
     }
 }
