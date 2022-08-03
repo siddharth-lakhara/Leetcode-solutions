@@ -1,9 +1,9 @@
-import _729.MyCalendarDriver;
+import _57.InsertIntervals;
 
 public class Runner {
 
     public static void main(String[] args) {
-        MyCalendarDriver solution = new MyCalendarDriver();
+        InsertIntervals solution = new InsertIntervals();
         solution.driver();
     }
 }
