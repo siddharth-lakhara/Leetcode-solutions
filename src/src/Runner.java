@@ -1,9 +1,9 @@
-import _54.SpiralMatrix;
+import _98.ValidateBST;
 
 public class Runner {
 
     public static void main(String[] args) {
-        SpiralMatrix solution = new SpiralMatrix();
+        ValidateBST solution = new ValidateBST();
         solution.driver();
     }
 }
