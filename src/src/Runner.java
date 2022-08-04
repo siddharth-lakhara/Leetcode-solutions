@@ -1,9 +1,9 @@
-import _57.InsertIntervals;
+import _150.EvaluateRPN;
 
 public class Runner {
 
     public static void main(String[] args) {
-        InsertIntervals solution = new InsertIntervals();
+        EvaluateRPN solution = new EvaluateRPN();
         solution.driver();
     }
 }
