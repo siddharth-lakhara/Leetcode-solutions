@@ -1,9 +1,9 @@
-import _13.RomanToInt;
+import _12.IntToRoman;
 
 public class Runner {
 
     public static void main(String[] args) {
-        RomanToInt solution = new RomanToInt();
+        IntToRoman solution = new IntToRoman();
         solution.driver();
     }
 }
