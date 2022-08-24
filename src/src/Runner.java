@@ -1,9 +1,9 @@
-import _12.IntToRoman;
+import _200.NumberOfIslands;
 
 public class Runner {
 
     public static void main(String[] args) {
-        IntToRoman solution = new IntToRoman();
+        NumberOfIslands solution = new NumberOfIslands();
         solution.driver();
     }
 }
