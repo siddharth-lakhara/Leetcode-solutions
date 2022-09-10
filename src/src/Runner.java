@@ -1,9 +1,9 @@
-import _1448.CountGoodNodes;
+import _886.PossibleBipartition;
 
 public class Runner {
 
     public static void main(String[] args) {
-        CountGoodNodes solution = new CountGoodNodes();
+        PossibleBipartition solution = new PossibleBipartition();
         solution.driver();
     }
 }
