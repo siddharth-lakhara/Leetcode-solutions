@@ -1,9 +1,9 @@
-import _886.PossibleBipartition;
+import _1539.KthMissingNum;
 
 public class Runner {
 
     public static void main(String[] args) {
-        PossibleBipartition solution = new PossibleBipartition();
+        KthMissingNum solution = new KthMissingNum();
         solution.driver();
     }
 }
