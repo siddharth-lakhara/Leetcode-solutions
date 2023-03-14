@@ -1,9 +1,9 @@
-import _1539.KthMissingNum;
+import _129.SumRootToLeaf;
 
 public class Runner {
 
     public static void main(String[] args) {
-        KthMissingNum solution = new KthMissingNum();
+        SumRootToLeaf solution = new SumRootToLeaf();
         solution.driver();
     }
 }
