@@ -1,9 +1,9 @@
-import _25.SwapKNodes;
+import _958.CheckTreeCompleteness;
 
 public class Runner {
 
     public static void main(String[] args) {
-        SwapKNodes solution = new SwapKNodes();
+        CheckTreeCompleteness solution = new CheckTreeCompleteness();
         solution.driver();
     }
 }
