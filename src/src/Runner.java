@@ -1,9 +1,9 @@
-import _24.SwapNodes;
+import _25.SwapKNodes;
 
 public class Runner {
 
     public static void main(String[] args) {
-        SwapNodes solution = new SwapNodes();
+        SwapKNodes solution = new SwapKNodes();
         solution.driver();
     }
 }
