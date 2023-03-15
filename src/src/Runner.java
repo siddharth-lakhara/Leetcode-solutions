@@ -1,9 +1,9 @@
-import _129.SumRootToLeaf;
+import _24.SwapNodes;
 
 public class Runner {
 
     public static void main(String[] args) {
-        SumRootToLeaf solution = new SumRootToLeaf();
+        SwapNodes solution = new SwapNodes();
         solution.driver();
     }
 }
