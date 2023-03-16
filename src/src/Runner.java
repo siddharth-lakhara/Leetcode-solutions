@@ -1,9 +1,9 @@
-import _958.CheckTreeCompleteness;
+import _41.FirstMissingPositive;
 
 public class Runner {
 
     public static void main(String[] args) {
-        CheckTreeCompleteness solution = new CheckTreeCompleteness();
+        FirstMissingPositive solution = new FirstMissingPositive();
         solution.driver();
     }
 }
