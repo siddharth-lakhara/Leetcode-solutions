@@ -1,9 +1,9 @@
-import _1319.NumOfOps;
+import _64.MinPathSum;
 
 public class Runner {
 
     public static void main(String[] args) {
-        NumOfOps solution = new NumOfOps();
+        MinPathSum solution = new MinPathSum();
         solution.driver();
     }
 }
