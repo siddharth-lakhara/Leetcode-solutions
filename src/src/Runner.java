@@ -1,9 +1,9 @@
-import _64.MinPathSum;
+import _983.TicketCost;
 
 public class Runner {
 
     public static void main(String[] args) {
-        MinPathSum solution = new MinPathSum();
+        TicketCost solution = new TicketCost();
         solution.driver();
     }
 }
