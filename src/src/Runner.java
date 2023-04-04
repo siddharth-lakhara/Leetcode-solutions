@@ -1,9 +1,9 @@
-import _983.TicketCost;
+import _5.LongestPalindrome;
 
 public class Runner {
 
     public static void main(String[] args) {
-        TicketCost solution = new TicketCost();
+        LongestPalindrome solution = new LongestPalindrome();
         solution.driver();
     }
 }
