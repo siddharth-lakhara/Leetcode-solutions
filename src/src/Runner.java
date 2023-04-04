@@ -1,9 +1,9 @@
-import _5.LongestPalindrome;
+import _881.BoatsToSavePeople;
 
 public class Runner {
 
     public static void main(String[] args) {
-        LongestPalindrome solution = new LongestPalindrome();
+        BoatsToSavePeople solution = new BoatsToSavePeople();
         solution.driver();
     }
 }
