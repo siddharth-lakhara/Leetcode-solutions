@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1657bbea-e3ae-4756-8579-88ae1062fb65" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Runner.java" afterDir="false" />
-    </list>
+    <list default="true" id="1657bbea-e3ae-4756-8579-88ae1062fb65" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +34,7 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -41,27 +42,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/src/_34" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/src/_958" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.1280992" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/src/_34" />
-      <recent name="$PROJECT_DIR$/src/src/_86" />
-      <recent name="$PROJECT_DIR$/src/src/_206" />
+      <recent name="$PROJECT_DIR$/src/src/_958" />
+      <recent name="$PROJECT_DIR$/src/src/_25" />
+      <recent name="$PROJECT_DIR$/src/src/_24" />
+      <recent name="$PROJECT_DIR$/src/src/_129" />
+      <recent name="$PROJECT_DIR$/src/src/_876" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="_153" />
-      <recent name="_240" />
-      <recent name="_74" />
-      <recent name="_315" />
-      <recent name="_11" />
+      <recent name="_881" />
+      <recent name="_5" />
+      <recent name="_983" />
+      <recent name="_64" />
+      <recent name="_1319" />
     </key>
   </component>
   <component name="RunManager">
@@ -93,6 +96,105 @@
       <option name="presentableId" value="Default" />
       <updated>1655914763662</updated>
     </task>
+    <task id="LOCAL-00001" summary="add soln 129">
+      <created>1678803254640</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678803254640</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add soln 24">
+      <created>1678858266973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678858266973</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add soln 25">
+      <created>1678862961139</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678862961139</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add soln 958">
+      <created>1678875038100</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678875038100</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add soln 41">
+      <created>1678959957129</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678959957129</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add soln 106">
+      <created>1679048909316</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679048909316</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add soln 208">
+      <created>1679053402455</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679053402455</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add soln 1472">
+      <created>1679320467852</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679320467852</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add soln 1319">
+      <created>1679926879123</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679926879123</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add soln 64">
+      <created>1679985410547</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679985410547</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add soln 983">
+      <created>1680149999196</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680149999196</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add accepted soln for 5">
+      <created>1680591326761</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680591326761</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add soln 881">
+      <created>1680596950318</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1680596950318</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit">
+      <created>1680596968201</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680596968201</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,16 +209,140 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add soln 129" />
+    <MESSAGE value="add soln 24" />
+    <MESSAGE value="add soln 25" />
+    <MESSAGE value="add soln 958" />
+    <MESSAGE value="add soln 41" />
+    <MESSAGE value="add soln 106" />
+    <MESSAGE value="add soln 208" />
+    <MESSAGE value="add soln 1472" />
+    <MESSAGE value="add soln 1319" />
+    <MESSAGE value="add soln 64" />
+    <MESSAGE value="add soln 983" />
+    <MESSAGE value="add accepted soln for 5" />
+    <MESSAGE value="add soln 881" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/src/_153/MinInRotatedSortedArr.java</url>
-          <line>36</line>
-          <properties class="_153.MinInRotatedSortedArr" method="driver">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="38" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_236/LowestCommonAncestor.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_57/InsertIntervals.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_150/EvaluateRPN.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_54/SpiralMatrix.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_54/SpiralMatrix.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_98/ValidateBST.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_155/MinStack.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_155/MinStackDriver.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_13/RomanToInt.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_200/NumberOfIslands.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_377/CombinationSum4.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_886/PossibleBipartition.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_886/PossibleBipartition.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_958/CheckTreeCompleteness.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_958/CheckTreeCompleteness.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_106/ConstructTree.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_208/Trie.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_208/Trie.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_983/TicketCost.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_983/TicketCost.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_983/TicketCost.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_881/BoatsToSavePeople.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_881/BoatsToSavePeople.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="112" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
