@@ -1,9 +1,9 @@
-import _886.PossibleBipartition;
+import _1402.ReducingDishes;
 
 public class Runner {
 
     public static void main(String[] args) {
-        PossibleBipartition solution = new PossibleBipartition();
+        ReducingDishes solution = new ReducingDishes();
         solution.driver();
     }
 }
