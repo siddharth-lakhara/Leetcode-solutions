@@ -1,9 +1,9 @@
-import _1402.ReducingDishes;
+import _1254.NumClosedIslands;
 
 public class Runner {
 
     public static void main(String[] args) {
-        ReducingDishes solution = new ReducingDishes();
+        NumClosedIslands solution = new NumClosedIslands();
         solution.driver();
     }
 }
