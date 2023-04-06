@@ -1,9 +1,9 @@
-import _1254.NumClosedIslands;
+import _605.PlaceFlowers;
 
 public class Runner {
 
     public static void main(String[] args) {
-        NumClosedIslands solution = new NumClosedIslands();
+        PlaceFlowers solution = new PlaceFlowers();
         solution.driver();
     }
 }
