@@ -1,9 +1,9 @@
-import _1020.NumEnclaves;
+import _133.CloneGraph;
 
 public class Runner {
 
     public static void main(String[] args) {
-        NumEnclaves solution = new NumEnclaves();
+        CloneGraph solution = new CloneGraph();
         solution.driver();
     }
 }
