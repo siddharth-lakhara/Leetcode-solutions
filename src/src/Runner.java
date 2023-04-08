@@ -1,9 +1,9 @@
-import _605.PlaceFlowers;
+import _2348.CountSubArrays;
 
 public class Runner {
 
     public static void main(String[] args) {
-        PlaceFlowers solution = new PlaceFlowers();
+        CountSubArrays solution = new CountSubArrays();
         solution.driver();
     }
 }
