@@ -1,9 +1,9 @@
-import _133.CloneGraph;
+import _2439.MinimizeMax;
 
 public class Runner {
 
     public static void main(String[] args) {
-        CloneGraph solution = new CloneGraph();
+        MinimizeMax solution = new MinimizeMax();
         solution.driver();
     }
 }
