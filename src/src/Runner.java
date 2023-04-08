@@ -1,9 +1,9 @@
-import _2348.CountSubArrays;
+import _1020.NumEnclaves;
 
 public class Runner {
 
     public static void main(String[] args) {
-        CountSubArrays solution = new CountSubArrays();
+        NumEnclaves solution = new NumEnclaves();
         solution.driver();
     }
 }
