@@ -1,9 +1,9 @@
-import _33.SearchInRotatedArr;
+import _55.JumpGame;
 
 public class Runner {
 
     public static void main(String[] args) {
-        SearchInRotatedArr solution = new SearchInRotatedArr();
+        JumpGame solution = new JumpGame();
         solution.driver();
     }
 }
