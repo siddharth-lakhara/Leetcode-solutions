@@ -1,9 +1,9 @@
-import _45.JumpGame2;
+import _1306.JumpGame3;
 
 public class Runner {
 
     public static void main(String[] args) {
-        JumpGame2 solution = new JumpGame2();
+        JumpGame3 solution = new JumpGame3();
         solution.driver();
     }
 }
