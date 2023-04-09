@@ -1,9 +1,9 @@
-import _2492.MinScoreBetweenCities;
+import _2316.CountUnreachableNodes;
 
 public class Runner {
 
     public static void main(String[] args) {
-        MinScoreBetweenCities solution = new MinScoreBetweenCities();
+        CountUnreachableNodes solution = new CountUnreachableNodes();
         solution.driver();
     }
 }
