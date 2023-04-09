@@ -1,9 +1,9 @@
-import _1306.JumpGame3;
+import _2492.MinScoreBetweenCities;
 
 public class Runner {
 
     public static void main(String[] args) {
-        JumpGame3 solution = new JumpGame3();
+        MinScoreBetweenCities solution = new MinScoreBetweenCities();
         solution.driver();
     }
 }
