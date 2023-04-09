@@ -1,4 +1,4 @@
-import _56.JumpGame2;
+import _45.JumpGame2;
 
 public class Runner {
 
