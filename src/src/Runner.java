@@ -1,9 +1,9 @@
-import _2439.MinimizeMax;
+import _33.SearchInRotatedArr;
 
 public class Runner {
 
     public static void main(String[] args) {
-        MinimizeMax solution = new MinimizeMax();
+        SearchInRotatedArr solution = new SearchInRotatedArr();
         solution.driver();
     }
 }
