@@ -1,9 +1,9 @@
-import _2316.CountUnreachableNodes;
+import _20.ValidParenthesis;
 
 public class Runner {
 
     public static void main(String[] args) {
-        CountUnreachableNodes solution = new CountUnreachableNodes();
+        ValidParenthesis solution = new ValidParenthesis();
         solution.driver();
     }
 }
