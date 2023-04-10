@@ -1,9 +1,9 @@
-import _20.ValidParenthesis;
+import _1857.LargestColorValue;
 
 public class Runner {
 
     public static void main(String[] args) {
-        ValidParenthesis solution = new ValidParenthesis();
+        LargestColorValue solution = new LargestColorValue();
         solution.driver();
     }
 }
