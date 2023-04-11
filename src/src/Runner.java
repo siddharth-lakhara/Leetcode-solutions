@@ -1,9 +1,9 @@
-import _1857.LargestColorValue;
+import _2390.RemoveStars;
 
 public class Runner {
 
     public static void main(String[] args) {
-        LargestColorValue solution = new LargestColorValue();
+        RemoveStars solution = new RemoveStars();
         solution.driver();
     }
 }
