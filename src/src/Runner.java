@@ -1,9 +1,9 @@
-import _2360.LongestCycle;
+import _2405.PartitionString;
 
 public class Runner {
 
     public static void main(String[] args) {
-        LongestCycle solution = new LongestCycle();
+        PartitionString solution = new PartitionString();
         solution.driver();
     }
 }
