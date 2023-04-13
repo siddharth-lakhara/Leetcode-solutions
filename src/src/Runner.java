@@ -1,9 +1,9 @@
-import _2405.PartitionString;
+import _71.SimplifyPaths;
 
 public class Runner {
 
     public static void main(String[] args) {
-        PartitionString solution = new PartitionString();
+        SimplifyPaths solution = new SimplifyPaths();
         solution.driver();
     }
 }
