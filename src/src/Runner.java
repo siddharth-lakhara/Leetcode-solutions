@@ -1,9 +1,8 @@
-import _71.SimplifyPaths;
+import _105.ConstructTreePreOrder;
 
 public class Runner {
-
     public static void main(String[] args) {
-        SimplifyPaths solution = new SimplifyPaths();
+        ConstructTreePreOrder solution = new ConstructTreePreOrder();
         solution.driver();
     }
 }
