@@ -1,8 +1,8 @@
-import _105.ConstructTreePreOrder;
+import _946.ValidateStackSeq;
 
 public class Runner {
     public static void main(String[] args) {
-        ConstructTreePreOrder solution = new ConstructTreePreOrder();
+        ValidateStackSeq solution = new ValidateStackSeq();
         solution.driver();
     }
 }
