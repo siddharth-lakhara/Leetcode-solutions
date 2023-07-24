@@ -1,8 +1,8 @@
-import _946.ValidateStackSeq;
+import _2260.ConsecutiveCards;
 
 public class Runner {
     public static void main(String[] args) {
-        ValidateStackSeq solution = new ValidateStackSeq();
+        ConsecutiveCards solution = new ConsecutiveCards();
         solution.driver();
     }
 }
