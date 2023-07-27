@@ -1,8 +1,8 @@
-import _22.GenerateParenthesis;
+import _167.TwoSum2;
 
 public class Runner {
     public static void main(String[] args) {
-        GenerateParenthesis solution = new GenerateParenthesis();
+        TwoSum2 solution = new TwoSum2();
         solution.driver();
     }
 }
