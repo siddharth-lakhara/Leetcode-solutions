@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1657bbea-e3ae-4756-8579-88ae1062fb65" name="Default Changelist" comment="" />
+    <list default="true" id="1657bbea-e3ae-4756-8579-88ae1062fb65" name="Default Changelist" comment="add soln 2899">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Runner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +33,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2AwJYlM9zGv5KvYluiV0CWvSiGN" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -38,33 +45,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="jdk.selected.JAVA_MODULE" value="17" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/src/_958" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.1280992" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Runner.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/siddharthlakhara/personal/Leetcode-solutions/src/src/_834",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/src/_834" />
+      <recent name="$PROJECT_DIR$/src/_44" />
+      <recent name="$PROJECT_DIR$/src/src/_2899" />
       <recent name="$PROJECT_DIR$/src/src/_958" />
       <recent name="$PROJECT_DIR$/src/src/_25" />
-      <recent name="$PROJECT_DIR$/src/src/_24" />
-      <recent name="$PROJECT_DIR$/src/src/_129" />
-      <recent name="$PROJECT_DIR$/src/src/_876" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/src" />
+      <recent name="$PROJECT_DIR$/src/_44" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_165" />
+      <recent name="_994" />
+      <recent name="_2900" />
       <recent name="_881" />
       <recent name="_5" />
-      <recent name="_983" />
-      <recent name="_64" />
-      <recent name="_1319" />
     </key>
   </component>
   <component name="RunManager">
@@ -194,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1680596968201</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add soln 2899">
+      <option name="closed" value="true" />
+      <created>1698413774618</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1698413774618</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,7 +225,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add soln 129" />
@@ -224,7 +241,8 @@
     <MESSAGE value="add accepted soln for 5" />
     <MESSAGE value="add soln 881" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="add soln 2899" />
+    <option name="LAST_COMMIT_MESSAGE" value="add soln 2899" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -344,7 +362,31 @@
           <line>13</line>
           <option name="timeStamp" value="112" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_2900/WordsInLongestSubseq.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_2900/WordsInLongestSubseq.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_2900/WordsInLongestSubseq.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/src/_994/RottingOranges.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

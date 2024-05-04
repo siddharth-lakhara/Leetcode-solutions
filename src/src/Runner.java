@@ -1,8 +1,8 @@
-import _167.TwoSum2;
+import _165.CompareVersion;
 
 public class Runner {
     public static void main(String[] args) {
-        TwoSum2 solution = new TwoSum2();
+        CompareVersion solution = new CompareVersion();
         solution.driver();
     }
 }
