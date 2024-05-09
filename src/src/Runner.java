@@ -1,8 +1,8 @@
-import _165.CompareVersion;
+import _3075.MaxHappiness;
 
 public class Runner {
     public static void main(String[] args) {
-        CompareVersion solution = new CompareVersion();
+        MaxHappiness solution = new MaxHappiness();
         solution.driver();
     }
 }
