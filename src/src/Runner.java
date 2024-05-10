@@ -1,8 +1,8 @@
-import _3075.MaxHappiness;
+import _994.RottingOranges;
 
 public class Runner {
     public static void main(String[] args) {
-        MaxHappiness solution = new MaxHappiness();
+        RottingOranges solution = new RottingOranges();
         solution.driver();
     }
 }
