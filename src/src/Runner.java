@@ -1,8 +1,8 @@
-import _695.MaxAreaIsland;
+import _417.PacificAtlanticFlow;
 
 public class Runner {
     public static void main(String[] args) {
-        MaxAreaIsland solution = new MaxAreaIsland();
+        PacificAtlanticFlow solution = new PacificAtlanticFlow();
         solution.driver();
     }
 }
