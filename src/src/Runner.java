@@ -1,8 +1,8 @@
-import _994.RottingOranges;
+import _695.MaxAreaIsland;
 
 public class Runner {
     public static void main(String[] args) {
-        RottingOranges solution = new RottingOranges();
+        MaxAreaIsland solution = new MaxAreaIsland();
         solution.driver();
     }
 }
