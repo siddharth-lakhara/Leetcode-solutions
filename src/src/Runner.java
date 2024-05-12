@@ -1,8 +1,8 @@
-import _22.GenerateParenthesis;
+import _739.DailyTemperature;
 
 public class Runner {
     public static void main(String[] args) {
-        GenerateParenthesis solution = new GenerateParenthesis();
+        DailyTemperature solution = new DailyTemperature();
         solution.driver();
     }
 }
