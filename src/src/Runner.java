@@ -1,8 +1,8 @@
-import _417.PacificAtlanticFlow;
+import _22.GenerateParenthesis;
 
 public class Runner {
     public static void main(String[] args) {
-        PacificAtlanticFlow solution = new PacificAtlanticFlow();
+        GenerateParenthesis solution = new GenerateParenthesis();
         solution.driver();
     }
 }
