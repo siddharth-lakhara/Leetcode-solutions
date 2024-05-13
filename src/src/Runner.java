@@ -1,8 +1,8 @@
-import _143.ReorderList;
+import _684.RedundantConnection;
 
 public class Runner {
     public static void main(String[] args) {
-        ReorderList solution = new ReorderList();
+        RedundantConnection solution = new RedundantConnection();
         solution.driver();
     }
 }
