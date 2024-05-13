@@ -1,8 +1,8 @@
-import _684.RedundantConnection;
+import _5.LongestPallindromicSubseq;
 
 public class Runner {
     public static void main(String[] args) {
-        RedundantConnection solution = new RedundantConnection();
+        LongestPallindromicSubseq solution = new LongestPallindromicSubseq();
         solution.driver();
     }
 }

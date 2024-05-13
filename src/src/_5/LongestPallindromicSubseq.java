@@ -1,25 +1,48 @@
 package _5;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 // TLE solution
+// Attempt to solve it via 1D DP approach
 public class LongestPallindromicSubseq {
 
-    private String solve(String s) {
-        int delta = 1;
-        int minIdx = 0;
-        int maxIdx = 1;
+    public String longestPalindrome(String s) {
+        HashMap<Character, List<Integer>> lastSeenMap = new HashMap<>();
 
-        for (int i=0; i<s.length(); i++) {
-            for (int j=i+delta; j<=s.length(); j++) {
-                String substr = s.substring(i, j);
-                if (this.isPallindrome(substr)) {
-                    delta = j-i;
-                    minIdx = i;
-                    maxIdx = j;
+        String answer = "";
+        int maxLength = 0;
+
+        for (int idx=0; idx<s.length(); idx++) {
+            char currChar = s.charAt(idx);
+
+            int localMaxima = 1;
+            String localMaximaStr = Character.toString(currChar);
+
+            if (lastSeenMap.containsKey(currChar)) {
+                List<Integer> list = lastSeenMap.get(currChar);
+                for (int startIdx: list) {
+                    String subStr = s.substring(startIdx, idx+1);
+                    if (isPallindrome(subStr)) {
+                        if (subStr.length() > localMaxima) {
+                            localMaxima = subStr.length();
+                            localMaximaStr = subStr;
+                        }
+                    }
                 }
+                list.add(idx);
+            } else {
+                lastSeenMap.put(currChar, new ArrayList<>(List.of(idx)));
+            }
+
+            if (localMaxima > maxLength) {
+                answer = localMaximaStr;
+                maxLength = localMaxima;
             }
         }
 
-        return s.substring(minIdx, maxIdx);
+        return answer;
     }
 
     private boolean isPallindrome(String s) {
@@ -29,8 +52,8 @@ public class LongestPallindromicSubseq {
     }
 
     public void driver() {
-        String s = "cbbd";
-        String answer = solve(s);
+        String s = "babab";
+        String answer = longestPalindrome(s);
         System.out.println(answer);
     }
 
