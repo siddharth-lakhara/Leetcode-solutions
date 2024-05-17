@@ -1,8 +1,8 @@
-import _48.RotateImage;
+import _73.SetZeroes;
 
 public class Runner {
     public static void main(String[] args) {
-        RotateImage solution = new RotateImage();
+        SetZeroes solution = new SetZeroes();
         solution.driver();
     }
 }
