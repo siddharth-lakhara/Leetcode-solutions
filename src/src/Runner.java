@@ -1,8 +1,8 @@
-import _5.LongestPallindromicSubseq;
+import _48.RotateImage;
 
 public class Runner {
     public static void main(String[] args) {
-        LongestPallindromicSubseq solution = new LongestPallindromicSubseq();
+        RotateImage solution = new RotateImage();
         solution.driver();
     }
 }
