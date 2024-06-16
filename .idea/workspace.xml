@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1657bbea-e3ae-4756-8579-88ae1062fb65" name="Default Changelist" comment="add soln 73">
+    <list default="true" id="1657bbea-e3ae-4756-8579-88ae1062fb65" name="Default Changelist" comment="add soln 210">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/src/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/src/Runner.java" afterDir="false" />
     </list>
@@ -72,11 +72,11 @@
       <recent name="_143" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="_2187" />
+      <recent name="_210" />
+      <recent name="_207" />
       <recent name="_198" />
       <recent name="_73" />
-      <recent name="_48" />
-      <recent name="_684" />
-      <recent name="_739" />
     </key>
   </component>
   <component name="RunManager">
@@ -318,7 +318,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715930770860</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="add soln 198">
+      <option name="closed" value="true" />
+      <created>1715954776810</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1715954776810</updated>
+    </task>
+    <task id="LOCAL-00030" summary="add soln 207">
+      <option name="closed" value="true" />
+      <created>1716013967548</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1716013967548</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add soln 210">
+      <option name="closed" value="true" />
+      <created>1716013972367</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1716013972367</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -333,9 +357,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add soln 25" />
-    <MESSAGE value="add soln 958" />
-    <MESSAGE value="add soln 41" />
     <MESSAGE value="add soln 106" />
     <MESSAGE value="add soln 208" />
     <MESSAGE value="add soln 1472" />
@@ -358,7 +379,10 @@
     <MESSAGE value="add tle soln 5" />
     <MESSAGE value="add soln 48" />
     <MESSAGE value="add soln 73" />
-    <option name="LAST_COMMIT_MESSAGE" value="add soln 73" />
+    <MESSAGE value="add soln 198" />
+    <MESSAGE value="add soln 207" />
+    <MESSAGE value="add soln 210" />
+    <option name="LAST_COMMIT_MESSAGE" value="add soln 210" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
