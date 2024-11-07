@@ -1,8 +1,8 @@
-import _2275.LargestCombination;
+import _3011.CanSortArray;
 
 public class Runner {
     public static void main(String[] args) {
-        LargestCombination solution = new LargestCombination();
+        CanSortArray solution = new CanSortArray();
         solution.driver();
     }
 }
