@@ -1,8 +1,8 @@
-import _2187.MinTimeToCompleteTrips;
+import _2275.LargestCombination;
 
 public class Runner {
     public static void main(String[] args) {
-        MinTimeToCompleteTrips solution = new MinTimeToCompleteTrips();
+        LargestCombination solution = new LargestCombination();
         solution.driver();
     }
 }
