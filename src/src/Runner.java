@@ -1,8 +1,8 @@
-import _3011.CanSortArray;
+import _1829.MaxiumumXor;
 
 public class Runner {
     public static void main(String[] args) {
-        CanSortArray solution = new CanSortArray();
+        MaxiumumXor solution = new MaxiumumXor();
         solution.driver();
     }
 }
