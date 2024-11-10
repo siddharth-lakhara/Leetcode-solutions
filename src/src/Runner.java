@@ -1,8 +1,8 @@
-import _1829.MaxiumumXor;
+import _3133.MinArrayEnd;
 
 public class Runner {
     public static void main(String[] args) {
-        MaxiumumXor solution = new MaxiumumXor();
+        MinArrayEnd solution = new MinArrayEnd();
         solution.driver();
     }
 }
