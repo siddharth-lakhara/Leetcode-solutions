@@ -22,16 +22,15 @@ public class CanSortArray {
             if (group == currGroupDetails.id) {
                 currGroupDetails.max = Math.max(currGroupDetails.max, num);
                 currGroupDetails.min = Math.min(currGroupDetails.min, num);
-
-                if (currGroupDetails.min < prevGroupMax) {
-                    return false;
-                }
             } else {
                 prevGroupMax = currGroupDetails.max;
 
                 currGroupDetails.id = group;
                 currGroupDetails.max = num;
                 currGroupDetails.min = num;
+            }
+            if (currGroupDetails.min < prevGroupMax) {
+                return false;
             }
         }
         return true;
