@@ -1,92 +1,91 @@
 package _417;
 
 import java.util.ArrayList;
-import java.util.HashSet;
+import java.util.Arrays;
 import java.util.List;
 
 public class PacificAtlanticFlow {
-    private record Coordinates(int x, int y){}
-    private HashSet<Coordinates> pacificVisited;
-    private HashSet<Coordinates> atlanticVisited;
-    private int[][] heights;
-    private int row;
-    private int col;
+    private static class CacheNode {
+        public boolean isPacificReachable;
+        public boolean isAtlanticReachable;
+
+        public CacheNode() {
+            this.isPacificReachable = false;
+            this.isAtlanticReachable = false;
+        }
+    }
+
+    private enum Conditions {
+        pacific,
+        atlantic
+    }
 
     public List<List<Integer>> pacificAtlantic(int[][] heights) {
-        this.heights = heights;
-        row = heights.length;
-        col = heights[0].length;
+        int ROWS = heights.length;
+        int COLS = heights[0].length;
 
-        pacificVisited = new HashSet<>();
-        atlanticVisited = new HashSet<>();
-
-        for (int idx = 0; idx<col; idx++) {
-            explorePacific(0, idx);
-            exploreAtlantic(row-1, idx);
+        CacheNode[][] cache =  new CacheNode[ROWS][COLS];
+        for (int r = 0; r<ROWS; r++) {
+            for (int c = 0; c<COLS; c++) {
+                cache[r][c] = new CacheNode();
+            }
         }
-        for (int idx = 0; idx<row; idx++) {
-            explorePacific(idx, 0);
-            exploreAtlantic(idx, col-1);
+
+        for (int idx = 0; idx < COLS; idx++) {
+            exploreSurroundings(0, idx, heights, cache, Conditions.pacific);
+            exploreSurroundings(ROWS-1, idx, heights, cache, Conditions.atlantic);
+        }
+        for (int idx = 0; idx < ROWS; idx++) {
+            exploreSurroundings(idx, 0, heights, cache, Conditions.pacific);
+            exploreSurroundings(idx, COLS-1, heights, cache, Conditions.atlantic);
         }
 
         List<List<Integer>> answer = new ArrayList<>();
-        for (Coordinates c: pacificVisited) {
-            if (atlanticVisited.contains(c)) {
-                answer.add(List.of(c.x, c.y));
+        for (int r = 0; r<ROWS; r++) {
+            for (int c = 0; c<COLS; c++) {
+                if (cache[r][c].isPacificReachable && cache[r][c].isAtlanticReachable) {
+                    answer.add(new ArrayList<>(
+                            Arrays.asList(r, c)
+                    ));
+                }
             }
         }
         return answer;
     }
 
-    private void explorePacific(int x, int y) {
-        if (pacificVisited.contains(new Coordinates(x, y))) {
-            return;
+    private void exploreSurroundings(int r, int c, int[][] heights, CacheNode[][] cache, Conditions condition) {
+        if (condition == Conditions.pacific) {
+            if (cache[r][c].isPacificReachable) {
+                return;
+            }
+
+            cache[r][c].isPacificReachable = true;
+        } else {
+            if (cache[r][c].isAtlanticReachable) {
+                return;
+            }
+
+            cache[r][c].isAtlanticReachable = true;
         }
-        pacificVisited.add(new Coordinates(x, y));
+
 
 //        explore up
-        if (x-1>=0 && heights[x][y] <= heights[x-1][y]) {
-            explorePacific(x-1, y);
+        if (r-1>=0 && heights[r][c] <= heights[r-1][c]) {
+            exploreSurroundings(r-1, c, heights, cache, condition);
         }
 
 //        explore down
-        if (x+1<row && heights[x][y] <= heights[x+1][y]) {
-            explorePacific(x+1, y);
+        if (r+1<heights.length && heights[r][c] <= heights[r+1][c]) {
+            exploreSurroundings(r+1, c, heights, cache, condition);
         }
 
 //        explore left
-        if (y-1>=0 && heights[x][y] <= heights[x][y-1]) {
-            explorePacific(x, y-1);
+        if (c-1>=0 && heights[r][c] <= heights[r][c-1]) {
+            exploreSurroundings(r, c-1, heights, cache, condition);
         }
 //        explore right
-        if (y+1<col && heights[x][y] <= heights[x][y+1]) {
-            explorePacific(x, y+1);
-        }
-    }
-
-    private void exploreAtlantic(int x, int y) {
-        if (atlanticVisited.contains(new Coordinates(x, y))) {
-            return;
-        }
-        atlanticVisited.add(new Coordinates(x, y));
-
-//        explore up
-        if (x-1>=0 && heights[x][y] <= heights[x-1][y]) {
-            exploreAtlantic(x-1, y);
-        }
-
-//        explore down
-        if (x+1<row && heights[x][y] <= heights[x+1][y]) {
-            exploreAtlantic(x+1, y);
-        }
-
-//        explore left
-        if (y-1>=0 && heights[x][y] <= heights[x][y-1]) {
-            exploreAtlantic(x, y-1);
-        }
-//        explore right
-        if (y+1<col && heights[x][y] <= heights[x][y+1]) {
-            exploreAtlantic(x, y+1);
+        if (c+1<heights[0].length && heights[r][c] <= heights[r][c+1]) {
+            exploreSurroundings(r, c+1, heights, cache, condition);
         }
     }
 
