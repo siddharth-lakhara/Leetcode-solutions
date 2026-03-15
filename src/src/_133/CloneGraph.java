@@ -1,33 +1,32 @@
 package _133;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 
 public class CloneGraph {
-    HashMap<Node, Node> clonedNodes = new HashMap<>();
-    
     public Node cloneGraph(Node node) {
         if (node == null) {
             return null;
         }
-        
-        Node newNode = new Node(node.val);
-        clonedNodes.put(node, newNode);
-        
-        ArrayList<Node> newNeighbors = new ArrayList<>();
-        for (Node neighbor : node.neighbors) {
-            Node newNeighborNode;
-            if (clonedNodes.containsKey(neighbor)) {
-                newNeighborNode = clonedNodes.get(neighbor);
-            } else {
-                newNeighborNode = cloneGraph(neighbor);
-            }
-            if (newNeighborNode != null) {
-                newNeighbors.add(newNeighborNode);    
-            }
+
+        HashMap<Node, Node> newNodeMap = new HashMap<>();
+        return exploreNode(node, newNodeMap);
+    }
+
+    public Node exploreNode(Node node, HashMap<Node, Node> newNodeMap) {
+//        already explored, simply return the node
+        if (newNodeMap.containsKey(node)) {
+            return newNodeMap.get(node);
         }
-        newNode.neighbors = newNeighbors;
-        
+
+        Node newNode = new Node(node.val);
+        newNodeMap.put(node, newNode);
+
+//        explore all neighbors
+        for (Node neighbor: node.neighbors) {
+            Node newNeighbor = exploreNode(neighbor, newNodeMap);
+            newNode.neighbors.add(newNeighbor);
+        }
+
         return newNode;
     }
 
