@@ -3,7 +3,6 @@ package _210;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Stack;
 
 public class CourseSchedule2 {
     private enum NodeStatus {
@@ -12,65 +11,50 @@ public class CourseSchedule2 {
         GRAY
     }
 
-    private NodeStatus[] nodeStatusArr;
-    private HashMap<Integer, ArrayList<Integer>> adjList;
-    private Stack<Integer> visitedStack;
-
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        visitedStack = new Stack<>();
-        nodeStatusArr = new NodeStatus[numCourses];
-        Arrays.fill(nodeStatusArr, NodeStatus.WHITE);
+        NodeStatus[] visited = new NodeStatus[numCourses];
+        Arrays.fill(visited, NodeStatus.WHITE);
 
-        adjList = new HashMap<>();
+        HashMap<Integer, ArrayList<Integer>> adjList = new HashMap<>();
+        for (int node=0; node<numCourses; node++) {
+            adjList.put(node, new ArrayList<>());
+        }
 
         for (int[] edge: prerequisites) {
-            if (!adjList.containsKey(edge[1])) {
-                adjList.put(edge[1], new ArrayList<>());
-            }
-            adjList.get(edge[1]).add(edge[0]);
+            adjList.get(edge[0]).add(edge[1]);
         }
 
-        for (int i=0; i<nodeStatusArr.length; i++) {
-            if (nodeStatusArr[i] == NodeStatus.WHITE) {
-                if (exploreNode(i)) {
-                    return new int[]{};
-                }
+        ArrayList<Integer> order =  new ArrayList<>();
+        for (int node=0; node<numCourses; node++) {
+            if (!exploreNode(node, adjList, visited, order)) {
+                order.clear();
+                break;
             }
         }
-
-//        stack to list conversion
-        int[] answer = new int[numCourses];
-        int idx = 0;
-        while (!visitedStack.isEmpty()) {
-            answer[idx] = visitedStack.pop();
-            idx++;
-        }
-        return answer;
+//        convert order to array
+        return order.stream()
+                .mapToInt(i -> i) // or Integer::intValue
+                .toArray();
     }
 
-//    explores all the neighbors of node.
-//    Returns true if a cycle is detected, otherwise false
-    private boolean exploreNode(int node) {
-        if (nodeStatusArr[node] == NodeStatus.GRAY) {
+    private boolean exploreNode(int node, HashMap<Integer, ArrayList<Integer>> adjList, NodeStatus[] visited, ArrayList<Integer> order) {
+        if (visited[node] == NodeStatus.GRAY) {
+            return false;
+        } else if (visited[node] == NodeStatus.BLACK) {
             return true;
-        } else if (nodeStatusArr[node] == NodeStatus.BLACK) {
-            return false;
-        } else if (!adjList.containsKey(node)) {
-            nodeStatusArr[node] = NodeStatus.BLACK;
-            visitedStack.push(node);
-            return false;
         }
 
-        nodeStatusArr[node] = NodeStatus.GRAY;
-        ArrayList<Integer> neighbors = adjList.get(node);
-        for (int n: neighbors) {
-            if (exploreNode(n)) {
-                return true;
+        visited[node] = NodeStatus.GRAY;
+        for (int neighbor: adjList.get(node)) {
+            if (!exploreNode(neighbor, adjList, visited, order)) {
+                return false;
             }
         }
-        nodeStatusArr[node] = NodeStatus.BLACK;
-        visitedStack.push(node);
-        return false;
+
+        visited[node] = NodeStatus.BLACK;
+        order.add(node);
+
+        return true;
     }
 
     public void driver() {
